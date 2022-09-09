@@ -1,0 +1,44 @@
+<style>
+body{
+    
+    justify-content:center
+    align-items:center;
+    text-align:center;
+   
+}
+
+
+
+</style>
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<meta charset=”UTF-8”/>
+<meta name="viewport" content="width="
+<title>Shall we check?</title>
+</head>
+<body>
+ <input id="value1" placeholder="Whats  is the first value?">
+ <input id="value2" placeholder="Whats is the second value?">
+ <button type="button" class="btn btn-dark" onclick="result()">CHECK</button>
+ 
+
+</body>
+<script>
+function result(value1, value2){
+    var first = document.getElementById("value1");
+    var second = document.getElementById("value2"); 
+ 
+ if (first === second){
+     document.write("The values ​​are identical");
+ }   else {
+     document.write("The values ​​are not identical");
+ }
+ return;
+    
+    
+      
+}
+</script>
+</html>
